@@ -1,0 +1,21 @@
+
+.colorMode {
+    float: right;
+    margin-left: 10px;
+    filter: var(--primary-drop-shadow);
+}
+
+.colorModeButton {
+    background-color: var(--primary-button-color);
+    border: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.colorModeButton:hover {
+    background-color: var(--primary-button-hover-color);
+}
