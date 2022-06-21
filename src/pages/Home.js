@@ -1,7 +1,10 @@
 import React from 'react'
+import './Home.css'
 
 export default function Home() {
   return (
-    <div>Welcome Home</div>
+    <div className="home-page-content">
+      asdas
+    </div>
   )
 }
