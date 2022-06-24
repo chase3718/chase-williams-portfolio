@@ -3,16 +3,18 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import './App.css'
+import UnderConstruction from "./components/UnderConstruction";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <div className="page-content">
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-        </Routes>
+        </Routes> */}
+        <UnderConstruction />
       </div>
     </div>
   );
