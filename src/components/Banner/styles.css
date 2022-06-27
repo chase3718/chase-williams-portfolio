@@ -1,0 +1,51 @@
+.banner {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 30px 5% 0 5%;
+    display: grid;
+    grid-template-columns: fit-content(250px) auto fit-content(250px);
+    gap: 10px;
+    align-items: center;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-right: 10px;
+}
+
+.title h3 {
+    margin: auto;
+    font-family: 'Comic Mono';
+}
+
+.title .spacer {
+    width: 3px;
+}
+
+.title .logo {
+    background: var(--gradient-right-glow);
+    width: 60px;
+    height: 30px;
+}
+
+.banner .button {
+    background: transparent;
+    border: none;
+    width: fit-content;
+    height: 40px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    margin-left: 10px;
+}
+
+.banner .button:hover {
+    background: var(--button-background-color);
+    cursor: pointer;
+}
+
+@media  screen and (max-width: 700px) {
+    .banner {
+        display: block;
+    }
+}
