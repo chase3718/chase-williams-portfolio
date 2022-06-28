@@ -8,6 +8,29 @@
     align-items: center;
 }
 
+@keyframes reveal {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 5px;
+    }
+} 
+
+.is-sticky {
+    position: fixed;
+    left: 0;
+    top: 5px;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: var(--primary-background-color) !important;
+    animation: reveal 1s none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 .title {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -44,7 +67,7 @@
     cursor: pointer;
 }
 
-@media  screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     .banner {
         display: block;
     }
