@@ -1,0 +1,11 @@
+{
+	"name": "chase-williams-portfolio",
+	"version": "1.0.0",
+	"description": "Portfolio project for Chase Williams",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
+}
